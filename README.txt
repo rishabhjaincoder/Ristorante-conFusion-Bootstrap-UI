@@ -50,3 +50,6 @@ explicitely configure that if we want to use that)
 Responsive Design And Bootstrap Grid
 
     added .container to index.html and doing changes in index.html file
+
+    to add custom css just create a folder in the root directory named css and then in that folder
+        add a file named style.css 
