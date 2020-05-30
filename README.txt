@@ -46,3 +46,7 @@ explicitely configure that if we want to use that)
         
     and now as we save the changes, the normal font will be changed to the bootstrap default font
     
+=====================================================================================================
+Responsive Design And Bootstrap Grid
+
+    added .container to index.html and doing changes in index.html file
