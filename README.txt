@@ -53,3 +53,26 @@ Responsive Design And Bootstrap Grid
 
     to add custom css just create a folder in the root directory named css and then in that folder
         add a file named style.css 
+
+=====================================================================================================
+Icon font
+    https://fontawesome.com/         // website for all the icon font
+
+    --> first we need to install font-awesome and bootstrap-social by
+            npm install font-awesome --save
+            npm install bootstrap-social --save
+
+    --> then we need to import these files in our html files               
+                    
+                    <!-- font awesome file and bootstrap social files for adding icons -->
+                    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+                    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+                    
+    --> after importing them we can use them like this
+                    <span class="fa fa-home fa-lg"></span>  
+                    <i class="fa fa-home fa-lg"></i>
+                // we can use span or i to use font awesome icons
+    --> we can make them as button like this
+           <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-lg fa-google-plus"></i></a>
+  
+    
