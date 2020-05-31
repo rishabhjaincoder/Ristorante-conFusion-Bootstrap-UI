@@ -16,6 +16,36 @@
 </head>
 
 <body>
+    <!--
+    navbar-dark will make the navbar dark
+    navbar-expand-sm makes the elements inside this as option in xs and sm screens
+    fixed-top will stick the navbar to the top of the screen
+-->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <!-- this is toggle button for the navbar in xs and sm devices
+                data toggle is a js component for bootstrap to make this thing functional
+                data target will set the target for the button-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <!-- navbar toggler icon will add a toggle 3 line icon there-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--navbar-brand is used to add name of the company -->
+            <a href="# " class="navbar-brand mr-auto">Ristorante Con Fusion</a>
+            <!-- navbar-nav tells that we are adding the links for the website
+                mr-auto is margin right auto, this will add the magin as much as possible to the right
+                 -->
+            <div class="collapse navbar-collapse" id="Navbar">
+            <!-- collapse is a js component which we will se later on-->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./aboutus.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -80,7 +110,7 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
