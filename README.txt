@@ -78,3 +78,4 @@ Icon font
 =====================================================================================================
 to use <a> as a button 
     <a href="#" class="btn btn-info" role="button"><i class="fa fa-skype"></i> Skype</a>
+
