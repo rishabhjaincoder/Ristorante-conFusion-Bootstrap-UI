@@ -75,4 +75,6 @@ Icon font
     --> we can make them as button like this
            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-lg fa-google-plus"></i></a>
   
-    
+=====================================================================================================
+to use <a> as a button 
+    <a href="#" class="btn btn-info" role="button"><i class="fa fa-skype"></i> Skype</a>
