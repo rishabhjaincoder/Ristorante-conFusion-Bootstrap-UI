@@ -175,11 +175,16 @@
 
                         <div class="row form-group">
                             <label for="telnum" class="col-12 col-md-4 col-form-label font-weight-bold">Section</label>
-
-                            <div class="btn-group col-12 col-md-5" data-toggle="buttons" role="group">
-                                <button type="button" class="btn btn-success col-12 col-md active">Non-Smoking</button>
-                                <button type="button" class="btn btn-danger col-12 col-md">Smoking</button>
+                            <div class="btn-group btn-group-toggle col-12 col-md-5" data-toggle="buttons">
+                                <label class="btn btn-success col-12 col-md active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off"
+                                        checked>Non-Smoking
+                                </label>
+                                <label class="btn btn-danger col-12 col-md">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">Smoking
+                                </label>
                             </div>
+
                             <div class="col-md">
                             </div>
                         </div>
@@ -204,7 +209,7 @@
 
                         </div>
                     </form>
-                    
+
                 </div>
             </div>
         </div>
