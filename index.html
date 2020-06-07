@@ -16,7 +16,7 @@
 
     <!-- Custom css file -->
     <link rel="stylesheet" href="css/style.css">
-
+    
     <title>Ristorante Con Fusion</title>
 </head>
 
@@ -417,32 +417,8 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script>
-        $(document).ready(function () {
-            $("#mycarousel").carousel({
-                interval: 3000
-            });
-            $("#carouselButton").click(function () {
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                } else if ($("#carouselButton").children("span").hasClass('fa-play')) {
-                    $("#mycarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');
-                }
-            });
-            // assignment 4
-            // here we can use modal('show') or modal('toggle'), both will work
-            $("#reservetablebutton").click(function () {
-                $('#reservetableModal').modal('toggle');
-            });
-            $("#loginbutton").click(function () {
-                $('#loginModal').modal('toggle');
-            });
-        });
-    </script>
+<!-- adding js file here-->
+    <scripts type="text/javascript" src="js/scripts.js"></scripts>
 
 </body>
 
